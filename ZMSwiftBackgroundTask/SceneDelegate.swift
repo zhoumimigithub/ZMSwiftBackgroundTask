@@ -92,7 +92,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
             let filePathUrl = NSURL(string: "\(Bundle.main.resourcePath!)/1.wav")
             
-            
             do {
                 try AVAudioSession.sharedInstance()
                     .setCategory(AVAudioSession.Category.playback)
